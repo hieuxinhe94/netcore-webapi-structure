@@ -3,9 +3,7 @@
 # The basic code structure for asp.net core web API project
 > A useful code structure for you, just coding, almost configuarations, features, useful thirdparty library already implemented .
 
-[![Build Status][travis-image]][travis-url]
-
-TAGS: Web API, ASP.NET CORE 2.1, Entity Framework Core, AutoMapper, Repository Pattern, JWT - Json Web Token, Swagger.
+## TAGS: Web API, ASP.NET CORE 2.1, Entity Framework Core,AutoMapper, Repository Pattern,JWT - Json Web Token, Swagger.
 
 ![](Untitled.png)
 
@@ -38,7 +36,7 @@ In this project:
 * Sercurity with SSL.
 
 
-_For more update, please refer to the [Wiki][wiki]._
+_For more update, please refer to the [Wiki][https://github.com/hieuxinhe/netcore-webapi-structure/wiki]._
 
 ## Development setup
 
@@ -51,18 +49,9 @@ dotnet run
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
 * 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+    * CHANGE: Update docs (module code remains unchanged)
+
  
 ## Contributing
 
@@ -72,4 +61,4 @@ dotnet run
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-[wiki]: https://github.com/yourname/yourproject/wiki
+[wiki]: https://github.com/hieuxinhe/netcore-webapi-structure/wiki

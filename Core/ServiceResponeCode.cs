@@ -8,7 +8,7 @@ namespace Core
         PENNDING = 2,
         ERROR = 3, 
         NOT_FOUND = 4,
-       
+        INVALID = 5;
         //... more
     }
 }

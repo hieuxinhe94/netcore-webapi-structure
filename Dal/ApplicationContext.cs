@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿
+using Domains;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -11,13 +12,21 @@ namespace Dal
         {
         }
 
-        public DbSet<Product> Categories { get; set; }
-
+        public virtual DbSet<ApplicationParam> ApplicationParams { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderStatus> OrderStatus { get; set; }
+        public virtual DbSet<ProductCategory> ProductCategories { get; set; }
+        public virtual DbSet<ProductModel> ProductModels { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<ProductView> ProductView { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Employee> Employee { get; set; }
+        public virtual DbSet<Visitor> Visistors { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<Product>().HasData(new Product { Id = 1, CategoryId = 1, DateCreated = DateTime.Now });
-            builder.Entity<Product>().HasData(new Product { Id = 2, CategoryId = 2, DateCreated = DateTime.Now });
-
+           
             base.OnModelCreating(builder);
         }
     }

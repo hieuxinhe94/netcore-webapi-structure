@@ -1,5 +1,5 @@
 ﻿using Dal.Interfaces.Base;
-using Domain;
+using Domains;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

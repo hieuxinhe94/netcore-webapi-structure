@@ -1,6 +1,6 @@
 ﻿using Dal.Implemented.Base;
 using Dal.Interfaces;
-using Domain;
+using Domains;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace Dal.Implemented
             // ToDO: Implement your logic to get them
             var thisProduct = await GetByIdAsync(id);
 
-            return await GetAll().OrderBy(t => t.Id).Where(t => t.CategoryId > thisProduct.CategoryId).Take(count).ToListAsync();
+            return await GetAll().OrderBy(t => t.Id).Where(t => t.ProductCategoryId > thisProduct.ProductCategoryId).Take(count).ToListAsync();
         }
     }
 }

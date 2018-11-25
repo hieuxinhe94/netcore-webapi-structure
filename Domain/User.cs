@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Domains
 {
     public class User : BaseEntity
     {

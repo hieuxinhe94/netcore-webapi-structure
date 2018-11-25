@@ -1,5 +1,6 @@
 ﻿using Dal.Interfaces.Base;
-using Domain;
+
+using Domains;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;

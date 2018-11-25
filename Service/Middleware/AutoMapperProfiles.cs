@@ -1,6 +1,6 @@
 ﻿
 using AutoMapper;
-using Domain;
+using Domains;
 using Service.ViewModel;
 
 namespace Service.Middleware
@@ -12,8 +12,8 @@ namespace Service.Middleware
             CreateMap<Product, ProductViewModel>();
             CreateMap<ProductViewModel, Product>();
 
-            CreateMap<Domain.User, LoginViewModel>();
-            CreateMap<LoginViewModel, Domain.User>();
+            CreateMap<User, LoginViewModel>();
+            CreateMap<LoginViewModel, User>();
         }
     }
 }

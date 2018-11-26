@@ -7,9 +7,7 @@
 
 ![](Untitled.png)
 
-## Installation
-
-OS X & Linux: install dotnet
+## Build
 
 ```sh
 dotnet restore
@@ -21,7 +19,7 @@ Windows:
 dotnet restore
 ```
 
-## Usage example
+## Include features:
 
 This project provided an neccessary code to build a web api project with net core.
 In this project:
